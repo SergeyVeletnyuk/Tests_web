@@ -17,7 +17,6 @@ def get_post(token):
                             params={"owner": "notMe"})
 
     # for i in resource.json()['data']:
-    #   count = 0
     #  print(i['description'])
 
     return resource.json()
